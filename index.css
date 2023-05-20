@@ -6,7 +6,7 @@ h1 {
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:801px)  {  
 .container {
-    background-color: hsl(212, 45%, 89%);
+    background-color: hsl(16, 46%, 89%);
     height: 100vh;
     display: flex;
     justify-content: center;
