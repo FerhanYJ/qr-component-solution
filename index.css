@@ -1,10 +1,14 @@
-body {
-    background-color: hsl(212, 45%, 89%);
-}
-
 h1 {
     color: navy;
     margin-left: 20px;
+}
+
+.container {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rectangle {
@@ -21,7 +25,7 @@ h1 {
     width: 100%;
 }
 
-.header-text {
+h1 {
     font-family: Outfit;
     font-weight: 700;
     font-size: 25px;
@@ -29,7 +33,7 @@ h1 {
     text-align: center
 }
 
-.subtitle-text {
+h2 {
     font-family: Outfit;
     font-weight: 400;
     font-size: 19px;
