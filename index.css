@@ -4,28 +4,13 @@ h1 {
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
-@media (min-width:801px)  {  
-.container {
-    background-color: hsl(212, 45%, 89%);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-    /* Styles */
+@media (min-width:801px) {
     .container {
-        background-color: hsl(53, 46%, 89%);
+        background-color: hsl(212, 45%, 89%);
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left: 20px;
-        padding-right: 20px
     }
 
     .rectangle {
@@ -33,36 +18,66 @@ h1 {
         border-radius: 25px;
         background: hsl(0, 0%, 100%);
         padding: 20px;
+        width: 320px;
         height: 500px;
+    }
+
+    .rectangle h1 {
+        font-family: Outfit;
+        font-weight: 700;
+        font-size: 25px;
+        color: hsl(218, 25%, 24%);
+        text-align: center
+    }
+
+    .rectangle h2 {
+        font-family: Outfit;
+        font-weight: 400;
+        font-size: 19px;
+        color: hsl(220, 15%, 55%);
+        text-align: center;
     }
 }
 
-.rectangle {
-    display: inline-block;
-    border-radius: 25px;
-    background: hsl(0, 0%, 100%);
-    padding: 20px;
-    width: 320px;
-    height: 500px;
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    /* Styles */
+    .container {
+        background-color: hsl(212, 45%, 89%);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rectangle {
+        display: inline-block;
+        border-radius: 25px;
+        background: hsl(0, 0%, 100%);
+        padding: 20px;
+        width: 75%;
+        height: 75%
+    }
+
+    .rectangle h1 {
+        font-family: Outfit;
+        font-weight: 700;
+        font-size: 100%;
+        color: hsl(218, 25%, 24%);
+        text-align: center
+    }
+
+    .rectangle h2 {
+        font-family: Outfit;
+        font-weight: 400;
+        font-size: 85%;
+        color: hsl(220, 15%, 55%);
+        text-align: center;
+    }
 }
 
 .rectangle img {
     border-radius: 10px;
     width: 100%;
-}
-
-.rectangle h1 {
-    font-family: Outfit;
-    font-weight: 700;
-    font-size: 25px;
-    color: hsl(218, 25%, 24%);
-    text-align: center
-}
-
-.rectangle h2 {
-    font-family: Outfit;
-    font-weight: 400;
-    font-size: 19px;
-    color: hsl(220, 15%, 55%);
-    text-align: center;
 }
