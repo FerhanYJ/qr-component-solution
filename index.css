@@ -1,16 +1,38 @@
 body {
     background-color: hsl(212, 45%, 89%);
-  }
-  
-  h1 {
+}
+
+h1 {
     color: navy;
     margin-left: 20px;
-  }
+}
 
-  #rcorners1 {
+.rectangle {
+    display: inline-block;
     border-radius: 25px;
     background: hsl(0, 0%, 100%);
     padding: 20px;
-    width: 200px;
-    height: 150px;
-  }
+    width: 320px;
+    height: 500px;
+}
+
+.rectangle img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.header-text {
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(218, 25%, 24%);
+    text-align: center
+}
+
+.subtitle-text {
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 19px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
