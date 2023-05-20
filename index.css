@@ -3,12 +3,30 @@ h1 {
     margin-left: 20px;
 }
 
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px)  {  
 .container {
     background-color: hsl(212, 45%, 89%);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    /* Styles */
+    .container {
+        background-color: hsl(212, 45%, 89%);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px
+    }
 }
 
 .rectangle {
@@ -25,7 +43,7 @@ h1 {
     width: 100%;
 }
 
-h1 {
+.rectangle h1 {
     font-family: Outfit;
     font-weight: 700;
     font-size: 25px;
@@ -33,7 +51,7 @@ h1 {
     text-align: center
 }
 
-h2 {
+.rectangle h2 {
     font-family: Outfit;
     font-weight: 400;
     font-size: 19px;
